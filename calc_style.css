@@ -1,0 +1,103 @@
+body {
+    font-size: 2.5vh;
+    top: 15%;
+    left: 40%;
+    margin: 0 auto;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#calculator {
+    width: auto;
+    height: auto;
+    padding: 1.5vh;
+    border: 5px solid #666666;
+    border-radius: 15px;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    text-align:right;
+    font-size: 2.8vh;
+    height: 3vh;
+    line-height: 3vh;
+    padding: 1em;
+    border: 2px solid #a021a0;
+    color: rgb(241, 161, 230);
+    border-radius: 15px;
+    background-color: black;
+}
+
+#last_operation_history {
+    height: 1.8vh;
+    font-size: 1.8vh;
+    text-align:right;
+    padding-right: 1.5vh;
+    color: rgb(177, 176, 176);
+    background-color: black;
+}
+
+button {
+    width:9vh;
+    height: 9vh;
+    font-weight:bold;
+    font-size: 3vh;
+    color: white;
+    background-color: #37dc87;
+    border-radius: 50%;
+    border: 1px solid #ed52be;
+}
+
+#backspace_btn {
+    background-image: url("../assets/back_remove.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 1.7em;
+}
+
+button:hover {
+    background-color: #f5f1f1;
+}
+
+.operator {
+    background-color: #d817db;
+}
+
+.operator:hover {
+    background-color: #cf58ea;
+}
+
+#equal_sign {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eb60c6;
+    text-align: center;
+}
+
+a:link {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
